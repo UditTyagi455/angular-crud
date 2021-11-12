@@ -31,7 +31,10 @@ export class HomeComponent implements OnInit {
     this._msgService.apiDeleteData(data.id).subscribe(del =>{
       console.log(del);
     })
-     
+    this._msgService.apiFun().subscribe(data =>{
+      console.log("hello");
+      
+    })
   }
  
 }
