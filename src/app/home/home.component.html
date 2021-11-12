@@ -1,0 +1,41 @@
+
+<!-- 
+<br>
+<h1 class="mat-display-3">this is parent component. and value is: {{prop1}}</h1>
+<br><br> -->
+
+<br>
+
+
+<br>
+  
+<br>
+
+<br>
+<div class="hello">
+    <div  class="main_cls">
+      <table>
+        <tr>
+          <th>Sr. no</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Role</th>
+          <th>Operation</th>
+        </tr>
+      </table>
+      <table *ngFor="let item of myApidata" >
+          <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.role}}</td>
+            <td><button>delete</button></td>
+          </tr>
+      </table>
+    
+        
+      <!-- <button (click)="deleteData(item)">Delete</button>
+     
+    <button (click)="editData(item)">edit</button>          -->
+    </div>
+</div>

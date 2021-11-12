@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "name": "Udit Tyagi",
+      "age": 24,
+      "role": "Intern",
+      "id": 1
+    },
+    {
+      "name": "shiv",
+      "age": "25",
+      "role": "software",
+      "id": 2
+    },
+    {
+      "name": "hee",
+      "age": "27",
+      "role": "engirnk",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

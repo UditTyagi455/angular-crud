@@ -1,0 +1,14 @@
+.main{
+    margin: 1.5rem;
+    padding: 9px;
+    dispaly: flex;
+}
+a{
+    margin: 8px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+input{
+    padding: 12px 4px;
+    margin-left: 1rem;
+}

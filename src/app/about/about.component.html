@@ -1,0 +1,9 @@
+
+<div class="form_cls"> 
+<form #myForm="ngForm" (ngSubmit)="postData(myForm.value)" >
+    <input type="text" ngModel name="name" placeholder="Enter your name ">
+    <input type="text" ngModel name="age" placeholder="Enter your age">
+    <input type="text" ngModel name="role" placeholder="Enter your role ">
+    <button>Submit</button>
+ </form>
+</div>
